@@ -69,7 +69,7 @@ $(document).ready(function(){
             wind.text("Wind: " + response.wind.speed + " MPH");
 
             var weatherIcon = $("#weatherIcon");
-            var iconURL = "http://openweathermap.org/img/wn/" + response.weather[0].icon  + "@2x.png"
+            var iconURL = "https://openweathermap.org/img/wn/" + response.weather[0].icon  + "@2x.png"
             weatherIcon.attr("src", iconURL)
 
             var lon = (response.coord.lon);
@@ -95,7 +95,7 @@ $(document).ready(function(){
         
 
         
-        var fiveDayWeatherURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + search + "&appid=43364a64003eed2cf004365437577ae5"
+        var fiveDayWeatherURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + search + "&appid=43364a64003eed2cf004365437577ae5"
         
         $.get(fiveDayWeatherURL).then(function(response){
             console.log(response);
@@ -111,7 +111,7 @@ $(document).ready(function(){
             
             
             var weatherIconDay1 = $("#weatherIconDay1")
-            var iconURL = "http://openweathermap.org/img/wn/" + response.list[1].weather[0].icon  + "@2x.png";
+            var iconURL = "https://openweathermap.org/img/wn/" + response.list[1].weather[0].icon  + "@2x.png";
             weatherIconDay1.attr("src", iconURL);
 
             var tempDay1 = $("#tempDay1");
@@ -127,7 +127,7 @@ $(document).ready(function(){
             day2.text(daysOfTheWeek[getDay + 2]);
             
             var weatherIconDay2 = $("#weatherIconDay2")
-            iconURL = "http://openweathermap.org/img/wn/" + response.list[2].weather[0].icon  + "@2x.png";
+            iconURL = "https://openweathermap.org/img/wn/" + response.list[2].weather[0].icon  + "@2x.png";
             weatherIconDay2.attr("src", iconURL);
 
             var tempDay2 = $("#tempDay2");
@@ -142,7 +142,7 @@ $(document).ready(function(){
             day3.text(daysOfTheWeek[getDay + 3]);
             
             var weatherIconDay3 = $("#weatherIconDay3")
-            iconURL = "http://openweathermap.org/img/wn/" + response.list[3].weather[0].icon  + "@2x.png";
+            iconURL = "https://openweathermap.org/img/wn/" + response.list[3].weather[0].icon  + "@2x.png";
             weatherIconDay3.attr("src", iconURL);
 
             var tempDay3 = $("#tempDay3");
@@ -157,7 +157,7 @@ $(document).ready(function(){
             day4.text(daysOfTheWeek[getDay + 4]);
             
             var weatherIconDay4 = $("#weatherIconDay4")
-            iconURL = "http://openweathermap.org/img/wn/" + response.list[4].weather[0].icon  + "@2x.png";
+            iconURL = "https://openweathermap.org/img/wn/" + response.list[4].weather[0].icon  + "@2x.png";
             weatherIconDay4.attr("src", iconURL);
 
             var tempDay4 = $("#tempDay4");
@@ -172,7 +172,7 @@ $(document).ready(function(){
             day5.text(daysOfTheWeek[getDay + 5]);
             
             var weatherIconDay5 = $("#weatherIconDay5")
-            iconURL = "http://openweathermap.org/img/wn/" + response.list[5].weather[0].icon  + "@2x.png";
+            iconURL = "https://openweathermap.org/img/wn/" + response.list[5].weather[0].icon  + "@2x.png";
             weatherIconDay5.attr("src", iconURL);
 
             var tempDay5 = $("#tempDay5");
