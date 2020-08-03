@@ -75,7 +75,7 @@ $(document).ready(function(){
             var lon = (response.coord.lon);
             var lat = (response.coord.lat);
 
-            var unIndexURL = "http://api.openweathermap.org/data/2.5/uvi?appid=43364a64003eed2cf004365437577ae5&lat="+ lat +"&lon=" + lon;
+            var unIndexURL = "https://api.openweathermap.org/data/2.5/uvi?appid=43364a64003eed2cf004365437577ae5&lat="+ lat +"&lon=" + lon;
 
             // gets UV idex from second API
             $.get(unIndexURL).then(function(response){
@@ -89,7 +89,7 @@ $(document).ready(function(){
                     uvIndex.css("color","green").text("UV Index: " + response.value);
                 }
             });
-            
+
         });
 
         
