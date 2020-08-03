@@ -1,0 +1,92 @@
+html{
+    min-height: 100%;
+}
+body{
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: linear-gradient(to right top, #343434, #3d3d3f, #46474a, #4e5156, #565b62, #5e676f, #66747c, #6e8189, #799399, #85a5a7, #93b8b3, #a5cabd);
+}
+#weatherCheck{
+    color: white;
+}
+.mainContainer{
+    margin-top: 100px;
+    
+}
+#weather{
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    color:white;
+    width: 50%;
+}
+.weatherCol{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+.imgCol{
+    padding: 20px;
+}
+#weatherIcon{
+    height: 250px;
+    width: 250px;
+}
+.containerBTN{
+   margin-top: 20px;
+   margin-bottom: 20px;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    width: 75%;
+}
+#showBTN{
+    margin: 10px;
+}
+.cityBTN{
+    text-transform:capitalize;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+}
+.dayCol{
+    border: solid 1px white;
+    background-color:#a5cabd;
+    margin: 10px;
+    display: inline;
+}
+
+
+.cardContainer{
+    border-top: solid 1px white;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fiveDTitle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.card{
+    background-color: #a5cabd;
+    color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-family: 'Montserrat', sans-serif;
+}
+.footerContainer{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    bottom: 0px;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
