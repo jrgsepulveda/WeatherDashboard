@@ -11,7 +11,9 @@ $(document).ready(function(){
             alert("Please input a city")
         }
         else{
-            cityWeatherSubmit(location) 
+            cityWeatherSubmit(location)
+            $(".initForm").hide();
+            $(".mainContainer").css("display", "block");
         }
 
         $("form")[0].reset();

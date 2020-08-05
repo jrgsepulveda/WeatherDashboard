@@ -13,8 +13,23 @@ body{
 #weatherCheck{
     color: white;
 }
+.initForm{
+    margin-top: 100px;
+    background-image: url(images/citylightning.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #6e8189;
+    color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    padding: 10%;
+}
 .mainContainer{
     margin-top: 100px;
+    display: none;
     
 }
 #weather{

@@ -18,17 +18,24 @@
 <body>
   <div class="container-fluid bg-dark">
     <div class="container">
-      <nav class="navbar bg-dark justify-content-between">
+      <nav class="navbar bg-dark justify-content-center">
         <a id="weatherCheck" class="navbar-brand">Weather Check</a>
-        <form class="form-inline">
-          <input  type="text" id="searchInput" class="mr-sm-2" placeholder="City">
-          <button class="btn btn-dark" id="searchBTN" type="submit">Search</button>
-        </form>
+        
       </nav>
     </div>
   </div>
   <!-- <input type="text" id="searchInput" type="submit">
       <button type="submit" id="searchB">search</button> -->
+      <div class="container-fluid d-flex justify-content-center initForm col-12">
+        <div class="row">
+          <h1>Welcome to the Weather Checker</h1>
+          <h5>Please check the weather in any city around the world</h5>
+        </div>
+        <form class="form-inline" id="initSearch">
+          <input  type="text" id="searchInput" class="mr-sm-2" placeholder="City">
+          <button class="btn btn-dark" id="searchBTN" type="submit">Search</button>
+        </form>
+      </div>
   <div class="container-fluid mainContainer">
     <div class="container containerBTN">
       <div class="row justify-content-center" id="showBTN">
