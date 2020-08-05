@@ -36,7 +36,7 @@ $(document).ready(function(){
 
         // get current date and time
         var currentdate = new Date(); 
-            var datetime = (currentdate.getMonth()+1) + "/" +  currentdate.getDate() + "/" + currentdate.getFullYear() + " at "  + (currentdate.getHours()-12) + ":"  + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+            var datetime = (currentdate.getMonth()+1) + "/" +  currentdate.getDate() + "/" + currentdate.getFullYear(); //+ " at "  + (currentdate.getHours()-12) + ":"  + currentdate.getMinutes();
     
         var search = $("#searchInput").val();
         var currentWeatherURL = "https://api.openweathermap.org/data/2.5/weather?q=" + search + "&appid=43364a64003eed2cf004365437577ae5";
@@ -200,7 +200,7 @@ $(document).ready(function(){
         console.log(cityBtn)
         // get current date and time
         var currentdate = new Date(); 
-            var datetime = (currentdate.getMonth()+1) + "/" +  currentdate.getDate() + "/" + currentdate.getFullYear() + " at "  + (currentdate.getHours()-12) + ":"  + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+            var datetime = (currentdate.getMonth()+1) + "/" +  currentdate.getDate() + "/" + currentdate.getFullYear(); // + " at "  + (currentdate.getHours()-12) + ":"  + currentdate.getMinutes() + ":" + currentdate.getSeconds();
     
         var search  = cityBtn;
         var currentWeatherURL = "https://api.openweathermap.org/data/2.5/weather?q=" + search + "&appid=43364a64003eed2cf004365437577ae5";

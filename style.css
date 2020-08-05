@@ -24,7 +24,7 @@ body{
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     font-family: 'Montserrat', sans-serif;
-    width: 75%;
+    width: 90%;
     padding: 10%;
 }
 .mainContainer{
@@ -48,8 +48,8 @@ body{
     padding: 20px;
 }
 #weatherIcon{
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
 }
 .containerBTN{
    margin-top: 20px;
